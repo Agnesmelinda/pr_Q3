@@ -25,3 +25,9 @@ def delete_student(i):
 
 if _name_ == '_main_':
     app.run(debug=True)
+
+
+
+curl -X POST http://127.0.0.1:5000/add -d "name=agnes"
+curl -X GET http://127.0.0.1:5000/view
+curl -X DELETE http://127.0.0.1:5000/delete/0
